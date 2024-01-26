@@ -1,0 +1,44 @@
+.footer{
+    background-color: $text-color;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+    &__logo{
+        width: 80px;
+        height: 80px;
+        fill: $text-color2;
+    }
+    &__navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-left: 30%;
+    }
+    &__link{
+        font-style: 17px;
+        font-weight: 500;
+        color: $text-color2;
+    }
+    &__link:hover, &__link:focus{
+        color: $link-color;
+    }
+    &__contacts{
+        display: flex;
+        margin-left: auto;
+        gap: 20px;
+    }
+    &__svg{
+        height: 40px;
+        width: 40px;
+        stroke: $text-color2;
+    }
+    &__svg:hover, &__svg:focus{
+        stroke: $link-color;
+    }
+
+}

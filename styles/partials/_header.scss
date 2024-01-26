@@ -1,0 +1,42 @@
+.header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid $text-color;
+
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+    &__logo{
+        width: 40px;
+        height: 40px;
+    }
+    &__navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-left: 30%;
+    }
+    &__link{
+        font-style: 17px;
+        font-weight: 500;
+        color: $text-color;
+    }
+    &__contacts{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    &__contacts-link{
+        font-style: 15px;
+        font-weight: 500;
+        color: $text-color;
+    }
+    &__link:hover, &__link:focus, &__contacts-link:hover, &__contacts-link:focus{
+        color: $link-color;
+    }
+}
